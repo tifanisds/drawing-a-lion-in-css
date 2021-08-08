@@ -1,0 +1,191 @@
+.campo {
+    width: 800px;
+    height: 800px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juba {
+    width: 332px;
+    height: 332px;
+    background-color: #ED7D5D;
+    border-radius: 332px;
+    position: relative;
+}
+
+.topete {
+    width: 98px;
+    height: 98px;
+    border-radius: 98px;
+    background-color: #ED7D5D;
+    position: absolute;
+    left: 117px;
+    top: 25px;
+    z-index: 4;
+}
+
+.cabeca {
+    width: 226px;
+    height: 226px;
+    background-color: #FCD77D;
+    border-radius: 200px;
+    position: absolute;
+    left: 53px;
+    top: 53px;
+    z-index: 3;
+}
+.orelha1, .orelha2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    background-color: #F6B776;
+    border: 25px solid #FCD783;
+    position: absolute;
+}
+
+.orelha1 {
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.orelha2 {
+    top: 30px;
+    left: 196px;
+    z-index: 2;
+}
+
+.olho1 {
+    width: 22px;
+    height: 22px;
+    background-color: #162F37;
+    border-radius: 22px;
+    position: absolute;
+    top: 130px;
+    left: 97px;
+    z-index: 5;
+}
+
+.olho2 {
+    width: 22px;
+    height: 22px;
+    background-color: #162F37;
+    border-radius: 22px;
+    position: absolute;
+    top: 130px;
+    right: 97px;
+    z-index: 6;
+}
+
+.focinho-base {
+    width: 136px;
+    height: 136px;
+    border-radius: 136px;
+    background-color: #FFF797;
+    position: absolute;
+    top: 160px;
+    right: 97px;
+    z-index: 7;
+}
+
+.sardinha1 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    top: 33px;
+    left: 25px;
+    z-index: 8;
+}
+
+.sardinha2 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    z-index: 9;
+    top: 45px;
+    left: 09px;
+}
+
+.sardinha3 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    left: 27px;
+    top: 50px;
+    z-index: 10;
+}
+
+.sardinha4 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    top: 33px;
+    right: 25px;
+    z-index: 11;
+}
+
+.sardinha5 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    top: 45px;
+    right: 09px;
+    z-index: 12;
+}
+
+.sardinha6 {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    background-color: #FAD57C;
+    position: absolute;
+    right: 27px;
+    top: 50px;
+    z-index: 13;
+}
+
+.boca1 {
+    width: 40px;
+    height: 20px;
+    background-color: #FFF897;
+    border: 5px solid #F3BA75;
+    border-radius: 0 0 40px 40px;
+    border-top: none;
+    position: absolute;
+    left: 20px;
+    top: 68px;
+}
+
+.boca2 {
+    width: 40px;
+    height: 20px;
+    background-color: #FFF897;
+    border: 5px solid #F3BA75;
+    border-radius: 0 0 40px 40px;
+    border-top: none;
+    position: absolute;
+    right: 20px;
+    top: 68px;
+}
+
+.nariz {
+    width: 47px;
+    height: 30px;
+    background-color: #EB7E5C;
+    border-radius: 47px 47px 47px 47px;
+    position: absolute;
+    left: 43px;
+    top: -10px;
+}
